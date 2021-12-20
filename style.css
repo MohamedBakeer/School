@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'LBC';
+}
+
+/* For Firefox
+For Internet Explorer and Edge */
+html {
+    /* scrollbar-width: none; 
+    -ms-overflow-style: none;  */
+}   
+
+/* For Chrome, Safari, and Opera */
+html::-webkit-scrollbar {
+    /* width: 0px;  */
+}
+body{
+    background-color: #454545;
+}
+/* _____________________________________ */
+
+.nav{
+    /* position: sticky;
+    top: 0px; */
+    /* background: #42246E; */
+    padding: 10px;
+    margin: 0  auto;
+    margin-bottom: 1px;
+    /* border: goldenrod 1px solid; */
+    width: 100%;
+    height: 100px;
+}
+.nav .logo{
+    color: white;
+    float: left;
+    /* border: green 2px solid; */
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+
+.nav .menu{
+    position: relative;
+    top: 15px;
+    right: 20px;
+    float: right;
+}
+.nav .menu li {
+    /* border: yellowgreen 2px solid; */
+    font-size: 20px;
+    float: right;
+    list-style: none;
+    margin: 10px;
+}
+.nav .menu li a {
+    /* border: blue 2px solid; */
+    color: white;
+    text-decoration: none;height: 50px;
+    margin: 10px;
+}
+
+/* _____________________________________________________ */
+.cont{
+    margin: auto;
+    width: 95%;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(Img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom-right-radius: 120px;
+}
+.cont .txt{
+    /* border: yellow 1px solid; */
+    position: relative;
+    top: 250px;
+    width: 350px;
+    left:  950px;
+}
+.cont .txt{
+    font-size: 24px;
+    color: white;
+}
+
+
+/* _______________________________________ */
+
+@media(max-width: 600px){
+    .nav .menu{
+        /* float: right; */
+        
+    }
+    .nav .menu li {
+        /* border: yellowgreen 2px solid; */
+        font-size: 20px;
+        float: right;
+        list-style: none;
+        margin: 10px;
+        font-size: x-small;
+    }
+    .nav .menu li a {
+        /* border: blue 2px solid; */
+        color: white;
+        text-decoration: none;height: 50px;
+        margin: 10px;
+        
+    }
+    .cont{
+        margin: auto;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(Img/2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .cont .txt{
+        /* border: yellow 1px solid; */
+        position: relative;
+        top: 50px;
+        width: 150px;
+        left:  290px;
+    }
+    .cont .txt{
+        font-size: 10px;
+        color: white;
+    }
+    
+}
+
+
+@media(max-width: 400px){
+    .nav{
+        /* position: sticky;
+        top: 0px; */
+        /* background: #42246E; */
+        padding: 10px;
+        margin: 0  auto;
+        margin-bottom: 1px;
+        border: goldenrod 1px solid;
+        width: 100%;
+        height: 100px;
+    }
+    .nav .logo{
+        color: white;
+        position: relative;
+        top: 5px;
+        left: 130px;
+        font-size: x-small;
+    }
+    
+    .nav .menu{
+        position: relative;
+        top: 15px;
+        right: 20px;
+        /* float: right; */
+        
+    }
+    .nav .menu li {
+        /* border: yellowgreen 2px solid; */
+        font-size: 20px;
+        float: right;
+        list-style: none;
+        margin: 10px;
+        font-size: x-small;
+    }
+    .nav .menu li a {
+        /* border: blue 2px solid; */
+        color: white;
+        text-decoration: none;height: 50px;
+        margin: 10px;
+        
+    }
+    .cont{
+        margin: auto;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(Img/2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .cont .txt{
+        /* border: yellow 1px solid; */
+        position: relative;
+        top: 50px;
+        width: 150px;
+        left:  190px;
+    }
+    .cont .txt{
+        font-size: 10px;
+        color: white;
+    }
+    
+}
